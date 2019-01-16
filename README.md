@@ -98,8 +98,8 @@ Input: Start
 ## Files Included 
 
 - [.gitignore](https://github.com/Deltasiv/Lemon/blob/master/.gitignore)
-- [wulf.cpp](https://github.com/Deltasiv/Lemon/blob/master/runw)
-- [gidnc.hpp](https://github.com/Deltasiv/Lemon/blob/master/runw)
+- [wulf.cpp](https://github.com/Deltasiv/Lemon/blob/master/wulf.cpp)
+- [gidnc.hpp](https://github.com/Deltasiv/Lemon/blob/master/gidnc.hpp)
 - [runw](https://github.com/Deltasiv/Lemon/blob/master/runw)
 - [LICENSE](https://github.com/Deltasiv/Lemon/blob/master/LICENSE) 
 - [README.md](https://github.com/Deltasiv/Lemon/blob/master/README.md) 
