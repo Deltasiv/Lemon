@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-# This is to the file directly from here 
-# This file is not required
+# This file is included to run the file from here
+# This file is not required (this is optional)
 
-./wulf
+./wulf 
