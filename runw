@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+# This is to run the file from here
+
+./wulf
