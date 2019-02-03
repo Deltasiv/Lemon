@@ -5,14 +5,17 @@
 #include <cinttypes>
 #include <vector>
 #include <sstream>
+#include "client.hpp"
+#include "server.hpp"
 #include <chrono>
-#include <fstream>
 #include <iostream>
 #include <thread>
 
 // Chrono and Thread will be used for clock
 // FSTREAM wil be used for gyroscopic temperature barometric speedometric and altimetric measurements
+// Server and client file are included
 
+std::string fubar = {"\033c"}; 
 std::string exitt = {"EXITING..."};
 
 struct err
@@ -40,7 +43,7 @@ class info
 
 		std::string information_options = {"Material, Fuel, Burn Time"};
 		std::vector <std::string> material = {"\nPlastic", "\nMetal"};
-		std::vector <std::string> fuel = {"\nEthanol", "\nNitric Acid", "\nPetrol"};
+		std::vector <std::string> fuel = {"\nEthanol", "\nNitric Acid"};
 
 	public:
 
@@ -58,9 +61,8 @@ class info
 
 			std::string opt;
 
-			std::cout << "Select one of the following options, " << information_options << " : ";
+			std::cout << ("Select one of the following options, ") << information_options << (" : ");
 			std::cin >> opt;
-			std::cout << "\n\n" << std::endl;
 
 			if (opt == "Fuel")
 			{
@@ -96,8 +98,8 @@ class info
             		 else
             		 {
 
-                			std::cout << "\n\nYou have not entered a valid input please try again...\n\n";		
-					std::cout << "\033c";
+                			std::cout << ("\n\nYou have not entered a valid input please try again...\n\n");
+					std::cout << (fubar);
                 			info_klar();
 
             		 }
@@ -116,18 +118,22 @@ class klar_gidnc
 		int gidnc(void)
 		{
 
-			std::cout << "Launch started...\n";
+			std::cout << ("Launch started...\n");
 		
 			for (auto z = 0; z < 3; ++z)
 			{
 
-				std::cout << "\nBooting...";
-
-				std::this_thread::sleep_for (std::chrono::seconds(1)); 
-				// Include embedded file here perhaps
+				std::cout << ("\nBooting...");
+				std::this_thread::sleep_for(std::chrono::seconds(1));
 
 			}
-		
+
+		       	ipv4(); // Testing only not for actual code
+                        ipv6(); // Testing only not for actual code
+			// Include embedded file here perhaps    
+			// Include the client and server here maybe
+
+
 			return (0);
 
 		}
@@ -137,7 +143,7 @@ class klar_gidnc
 int klar(void)
 {
 
-	std::string fehlergen = {"ERROR"}; // General ERROR notation
+	std::string fehlergen = {"ERROR "}; // General ERROR notation
 	
 	fehler.FEHLERNO99; // Error for incorrect input
 	fehler.FEHLERNO98; // Error for internal issue
@@ -150,18 +156,18 @@ int klar(void)
 	klar_gidnc einsamer_wulf; // For launch
 	info initiale; // For info
 
-	std::string menu_op = "\nLaunch - 1, Info - 2 , Help - 3, Quit - 4";
+	std::string menu_op = {"\nLaunch - 1, Info - 2 , Help - 3, Quit - 4"};
 	int menu_ops;
 
-	std::cout << "\nMenu options are below:\n";
+	std::cout << ("\nMenu options are below:\n");
 	std::cout << menu_op;
-	std::cout << "\n\nPlease select one: ";
+	std::cout << ("\n\nPlease select one: ");
 	std::cin >> menu_ops;
 
 	if (menu_ops == 1)
 	{
 
-		std::cout << "\033c";
+		std::cout << (fubar);
 		einsamer_wulf.gidnc();
 
 	}
@@ -169,7 +175,7 @@ int klar(void)
 	else if (menu_ops == 2)
 	{
 
-		std::cout << "\033c";
+		std::cout << (fubar);
 	       	initiale.info_klar();
 
 	}
@@ -177,18 +183,17 @@ int klar(void)
 	else if (menu_ops == 3)
 	{
 	
-		std::cout << "Help menu...";
-		std::cout << "Closing application..." << std::endl;
-		return (0);
+		std::cout << ("Help menu...");
+		std::cout << ("Closing application...") << std::endl;
 
 	}
 	
 	else
 	{
 		
-		std::cerr << "\nYou have not entered a valid input or you entered Quit...";
-		std::cerr << "\n\n" << s4fehler;
-		std::cerr << "\n\n" << exitt << '\n';
+		std::cerr << ("\nYou have not entered a valid input or you entered Quit...");
+		std::cerr << ("\n\n") << s4fehler;
+		std::cerr << ("\n\n") << exitt << ('\n');
 		return (0);
 
 	}
