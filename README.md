@@ -1,8 +1,8 @@
 # Lemon
 
-![](https://img.shields.io/badge/C++-17-blue.svg) ![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.1-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) 
+![](https://img.shields.io/badge/C++-17-blue.svg) ![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.1-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/ShellScript-5.0-red.svg)
 
-> Rocket launch system
+> Rocket launch system.
 
 --- 
 
@@ -26,14 +26,14 @@ These are the sections on the [README.md](https://github.com/Deltasiv/Lemon/blob
 
 ## Description 
 
-Comet is a student organization tool made in C++. 
+Lemon is a rocket launch system made in C++ 17 and Shell script. 
 
 #### Technologies 
 
 - C++ 17 
-- Shell Script 
+- Shell Script 5.0 
 
-#### Other technologies are subject to be used 
+#### Other technologies are subject to be used and may or will be changed without notice. 
 
 --- 
 
@@ -43,7 +43,7 @@ To use this work simply download it and edit or use it by running it in the GNU 
 
 #### Prerequistites 
 
-You must have the GNU C++ Compiler if you don't have one run
+You must have the GNU C++ Compiler if you don't have one run.
 
 ```bash 
 sudo apt-get install g++
@@ -58,6 +58,8 @@ git clone https://github.com/Deltasiv/Lemon.git or Download it
 ```
 
 #### Usage 
+
+To use this program go to your terminal go to the directory of these files then type the following command. 
 
 ```bash
 g++ std=c++17 file_name.cpp -o file_name
@@ -126,7 +128,7 @@ If you wish to help on this project you can simply make changes to the file and 
 
 MIT License 
 
-Copyright (c) [2017] [Deltasiv] 
+Copyright (c) [2018] [Deltasiv] 
 
 Permission is hereby granted, free of charge, to any person obtainin g a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
 
@@ -143,18 +145,24 @@ See | [LICENSE.md](https://github.com/Deltasiv/Lemon/blob/master/LICENSE) file o
 ## Author Info 
 
 - Github - [YELLOWHATT](https://github.com/YELLOWHATT)
+- Github - [Johk3](https://github.com/Johk3)
+- Github - [Hydra](https://github.com/Hydr43301)
 
 --- 
 
 ## Contributors 
 
 - YELLOWHATT 
+- Johk3  
+- Hydra 
 
 --- 
 
 ## Version Info 
 
 The current stable version of Lemon is: 0.0.1. 
+
+--- 
 
 Summury of Version 0.0.1 Application is started. 
 
