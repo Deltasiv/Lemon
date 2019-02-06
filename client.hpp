@@ -3,8 +3,6 @@
 
 #include <iostream>
 #include <string>
-#include <thread>
-#include <chrono>
 #include <fstream>
 #include <sstream>
 #include <cmath>
@@ -14,7 +12,7 @@
 int ipv4(void)
 {
 
-	std::cout << "\nTest client\n";
+	std::cout << "\n\nTest client\n";
 
 	return (0);
 

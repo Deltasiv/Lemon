@@ -11,11 +11,14 @@
 #include <iostream>
 #include <thread>
 
+// GIDNC == Guidance and Internal Distributed Navigation Computer
+// More hpp files will be included
+
 // Chrono and Thread will be used for clock
-// FSTREAM wil be used for gyroscopic temperature barometric speedometric and altimetric measurements
+// FSTREAM will be used for gyroscopic temperature barometric speedometric and altimetric measurements
 // Server and client file are included
 
-std::string fubar = {"\033c"}; 
+std::string fubar = {"\033c"};
 std::string exitt = {"EXITING..."};
 
 struct err
@@ -128,8 +131,9 @@ class klar_gidnc
 
 			}
 
-		       	ipv4(); // Testing only not for actual code
-                        ipv6(); // Testing only not for actual code
+		       	ipv4(); // Testing only not for actual code YET
+                        ipv6(); // Testing only not for actual code YET
+			
 			// Include embedded file here perhaps    
 			// Include the client and server here maybe
 
