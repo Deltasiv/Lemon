@@ -2,10 +2,8 @@
 #define CLIENT_HPP_
 
 #include <iostream>
-#include <chrono>
 #include <sstream>
 #include <fstream>
-#include <thread>
 #include <string>
 #include <cmath>
 
@@ -14,7 +12,7 @@
 int ipv6(void)
 {
 
-	std::cout << "\nTest server\n";
+	std::cout << "\n\nTest server\n";
 
 	return (0);
 
