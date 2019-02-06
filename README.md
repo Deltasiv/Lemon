@@ -75,28 +75,38 @@ then
 int main(void)
 {
 
-        std::string errorgen = {"ERROR "}; // General ERROR notation
+	control wulf_start;
+	control errors;
 
-        error.ERRORNO1; // ERROR for incorrect input
-        error.ERRORNO2; // Error for internal issue
-        error.ERRORNO3; // Error for unknown issue
+	std::string temp_pass = {"WULFZITRONE"}; // Temporary password
+	std::string pass; // string for entering temporary password
+	std::string errorgen = {"ERROR "}; // General ERROR notation
 
-        std::ostringstream(s1);
-        s1 << errorgen << error.ERRORNO1;
-        std::string s2error = s1.str();
+	wulf_start.mistake.ERRORNO4; // ERROR for incorrect input
+	wulf_start.mistake.ERRORNO2; // ERROR for incorrect password 
+	wulf_start.mistake.ERRORNO1; // Error for internal issue
+	wulf_start.mistake.ERRORNO3; // Error for unknown issue
 
-        std::string launch;
+	std::ostringstream(s7); 
+	s7 << errorgen << wulf_start.mistake.ERRORNO2; 
+	std::string s9error = s7.str(); 
 
-        control wulf_start;
+	std::ostringstream(s1);
+	s1 << errorgen << wulf_start.mistake.ERRORNO4;
+	std::string s2error = s1.str();
 
-        std::cout << "Hello I'm " << "\u03BD";
-        std::cout << "\n\nEnter Start to launch the program: ";
-        std::cin >> launch;
+	std::string launch;
+
+	control light;
+	
+	std::cout << ("Hello I'm ") << ("\u03BD\u03C5"); // Program name is nu
+	std::cout << ("\n\nEnter the password to start the program\n\n");	
+	std::cin >> pass;
 ```
 ```
-Enter Start to launch the program: 
+Enterthe password to start the program
 
-Input: Start
+Input: ****
 ```
 
 --- 
