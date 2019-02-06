@@ -63,6 +63,10 @@ To use this program go to your terminal go to the directory of these files then 
 
 ```bash
 g++ std=c++17 file_name.cpp -o file_name
+
+then 
+
+./file_name
 ```
 
 #### Program Usage 
@@ -104,6 +108,9 @@ Input: Start
 - [gidnc.hpp](https://github.com/Deltasiv/Lemon/blob/master/gidnc.hpp)
 - [runw](https://github.com/Deltasiv/Lemon/blob/master/runw)
 - [LICENSE](https://github.com/Deltasiv/Lemon/blob/master/LICENSE) 
+- [server.hpp](https://github.com/Deltasiv/Lemon/blob/master/server.hpp)
+- [data.hpp](https://github.com/Deltasiv/Lemon/blob/master/data.hpp)
+- [client.hpp](https://github.com/Deltasiv/Lemon/blob/master/client.hpp)
 - [README.md](https://github.com/Deltasiv/Lemon/blob/master/README.md) 
 - [CONTRIBUTING.md](https://github.com/Deltasiv/Lemon/blob/master/CONTRIBUTORS.md)
 - [CONTRIBUTIONS.md](https://github.com/Deltasiv/Lemon/blob/master/CONTRIBUTIONS.md)
@@ -120,7 +127,7 @@ Input: Start
 
 ## Contributing
 
-If you wish to help on this project you can simply make changes to the file and post your changes and if they are appreciated we will merge them to the Master branch. Please read the [CONTRIBUTING.md](https://github.com/YELLOWHATT/Comet/blob/master/CONTRIBUTORS.md) file for more information. If you have contributed to this work known as Darwin you will be credited the file for contributors is [CONTRIBUTIONS.md](https://github.com/YELLOWHATT/Comet/blob/master/CONTRIBUTIONS.md). :) 
+If you wish to help on this project you can simply make changes to the file and post your changes and if they are appreciated we will merge them to the Master branch. Please read the [CONTRIBUTING.md](https://github.com/Deltasiv/Lemon/blob/master/CONTRIBUTORS.md) file for more information. If you have contributed to this work known as Darwin you will be credited the file for contributors is [CONTRIBUTIONS.md](https://github.com/Deltasiv/Lemon/blob/master/CONTRIBUTIONS.md). :) 
 
 --- 
 
@@ -128,7 +135,7 @@ If you wish to help on this project you can simply make changes to the file and 
 
 MIT License 
 
-Copyright (c) [2018] [Deltasiv] 
+Copyright (c) [2019] [Deltasiv] 
 
 Permission is hereby granted, free of charge, to any person obtainin g a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
 
@@ -146,7 +153,6 @@ See | [LICENSE.md](https://github.com/Deltasiv/Lemon/blob/master/LICENSE) file o
 
 - Github - [YELLOWHATT](https://github.com/YELLOWHATT)
 - Github - [Johk3](https://github.com/Johk3)
-- Github - [Hydra](https://github.com/Hydr43301)
 
 --- 
 
@@ -154,7 +160,6 @@ See | [LICENSE.md](https://github.com/Deltasiv/Lemon/blob/master/LICENSE) file o
 
 - YELLOWHATT 
 - Johk3  
-- Hydra 
 
 --- 
 
