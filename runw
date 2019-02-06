@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This will run all the files or the compiled version 
 # This file is included to run the file from here.
 # This file is not required (this is optional).
 # This file will only run on Linux platforms.
